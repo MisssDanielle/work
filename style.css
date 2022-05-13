@@ -1,0 +1,163 @@
+*::after,
+*::before,
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.header {
+    width: 100%;
+    height: 100px;
+    background: rgb(236, 25, 176);
+    color: black;
+    font-weight: bold;
+    display: flex;
+    padding: 25px 55px;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.header h1 span {
+    color: white;
+}
+
+.nav_item {
+    display: flex;
+    color: white;
+}
+
+.nav_link {
+    font-size: 1.5rem;
+    margin-right: 35px;
+}
+
+.nav_link:hover {
+    border-bottom: 5px solid white;
+    padding-bottom: 15px;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 500px 1fr;
+}
+
+
+
+
+.aside {
+    padding-left: 55px;
+    padding-top: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.aside img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 55px;
+}
+
+.aside h1 {
+    font-weight: bold;
+
+}
+
+.aside span {
+
+    margin-top: 75px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(208, 95, 25);
+}
+
+
+.nav_ele ol li {
+    margin-bottom: 55px;
+}
+
+.ele {
+    margin-top: 15px;
+}
+
+.ele li {
+    margin-bottom: 25px;
+    color: blue;
+    margin-left: 55px;
+}
+
+.aside_rigth {
+    text-align: center;
+    padding: 85px;
+    background: rgba(255, 204, 204, 0.553);
+}
+
+
+section {
+    margin-top: 95px;
+}
+
+section h1 {
+    color: rgb(201, 28, 221);
+    font-size: 2rem;
+    margin-bottom: 35px;
+}
+
+section p,
+li {
+    text-align: left;
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+
+section h3 {
+    color: rgb(44, 19, 188);
+    margin: 25px;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+.def {
+    font-weight: bold;
+}
+
+table {
+    margin: 45px;
+    text-align: center;
+    color: white;
+    background: rgb(222, 212, 6);
+    font-weight: bold;
+}
+
+td {
+    background: rgb(46, 171, 90);
+}
+
+tr,
+td,
+table {
+    border: 2px solid black;
+    font-size: 1.3rem;
+    padding: 10px;
+}
